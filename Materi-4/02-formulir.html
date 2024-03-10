@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <form>
+        <b>FORM PENDAFTARAN MAHASISWA<b>
+        <table border="0">
+            <tr>
+                <td>NAMA LENGKAP</td>
+                <td>:</td>
+                <td><input type="text" name="NamaLngkp" size="25"></td>
+            </tr>
+            <tr>
+                <td>JENIS KELAMIN</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk">Laki-Laki<br>
+                    <input type="radio" name="jk">Perempuan<br>
+                </td>
+            </tr>
+            <tr>
+                <td>TANGGAL LAHIR</td>
+                <td>:</td>
+                <td>
+                    <input type="date" name="tgllahir">
+                </td>
+            </tr>
+            <tr>
+                <td>PROGRAM STUDI</td>
+                <td>:</td>
+                <td>
+                    <select name="prodi">
+                        <option value="si">Sistem Informasi</option>
+                        <option value="ka">Komputer Akuntansi</option>
+                        <option value="ti">Teknik Informatika</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>ALAMAT</td>
+                <td>:</td>
+                <td>
+                    <textarea name="alamat" rows="5" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>HOBI</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobbi">Maen Game<br>
+                    <input type="checkbox" name="hobbi">Maen Sepeda<br>
+                    <input type="checkbox" name="hobbi">Maen Bola<br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="submit" value="Daftar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
