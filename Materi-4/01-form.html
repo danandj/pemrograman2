@@ -1,41 +1,51 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Berita</title>
+    <title>Contoh Form</title>
 </head>
 <body>
+    <h2>Form Registrasi</h2>
     <form>
-        <p>
-            <input type="submit" value="Daftar">
-        </p>
+        <label>Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
         
-        <p>
-            <textarea rows="5" cols="30"></textarea>
-        </p>
+        <label>Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
 
-        <p>
-            <select>
-                <option>Teknik Informatika</option>
-                <option>Sistem Informasi</option>
-                <option>Komputer Akuntansi</option>
-            </select>
-        </p>
+		<label>Program Studi:</label><br>
+        <select>
+          <option>Teknik Informatika</option>
+          <option>Sistem Informasi</option>
+          <option>Komputer Akuntansi</option>
+        </select><br><br>
+       
+		<label>Jenis Kelamin:</label><br>
+        <input type="radio" name="jk">Laki-Laki
+        <input type="radio" name="jk">Perempuan
+        <br><br><br>
 
-        <p>
-            <input type="radio">
-        </p>
+        <label>Tanggal Lahir:</label><br>
+        <input type="date"><br><br>
+        
+        <label>Umur:</label><br>
+        <input type="number"><br><br>
 
-        <p>
-            <input type="date">
-        </p>
-
-        <p>
-            <input type="number" min="1" max="5">
-        </p>
-
-        <p>
-            <input type="file">
-        </p>
-
+        <label>Alamat Lengkap:</label><br>
+        <textarea rows="5" cols="30"></textarea><br><br>
+            
+        <label>Upload File:</label><br>
+        <input type="file"><br><br>
+        
+        <label>Hobi:</label><br>
+        <input type="checkbox" name="hobbi">Maen Game<br>
+        <input type="checkbox" name="hobbi">Maen Sepeda<br>
+        <input type="checkbox" name="hobbi">Maen Bola<br><br>
+        
+        <label>Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
